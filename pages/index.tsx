@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { NextPage } from "next";
 import Head from "next/head";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,9 @@ const Home: NextPage = () => {
       <Header />
 
       {/* Hero*/}
+      <section id="hero">
+        <Hero />
+      </section>
 
       {/* About*/}
 
