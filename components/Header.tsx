@@ -27,8 +27,9 @@ export default function Header({}: Props) {
         className="flex flex-row items-center"
       >
         {/*Social Icons*/}
+
         <SocialIcon
-          url="https://www.youtube.com/channel/UCetKRATzuGDY0wgH2_xHigQ"
+          url="https://www.facebook.com/xln.69/"
           fgColor="gray"
           bgColor="transparent"
         />
@@ -38,7 +39,12 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com/channel/UCetKRATzuGDY0wgH2_xHigQ"
+          url="https://www.linkedin.com/in/arik-ahmed-zelan-576587209"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.instagram.com/_ario0o_/"
           fgColor="gray"
           bgColor="transparent"
         />
